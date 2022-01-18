@@ -1,3 +1,4 @@
+import 'package:firebase/ressources_/login_page.dart';
 import 'package:firebase/screens/login_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home:  LoginScreen(),
+      home:  LoginPage(),
     );
   }
 }
